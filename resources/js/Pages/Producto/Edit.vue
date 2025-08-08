@@ -14,7 +14,7 @@ const form = useForm({
 });
 
 function submit() {
-  form.put(`/productos/${props.producto.id}`);
+  form.patch(`/productos/${props.producto.id}`);
 }
 </script>
 
