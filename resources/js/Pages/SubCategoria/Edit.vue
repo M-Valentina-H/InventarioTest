@@ -14,7 +14,7 @@ const form = useForm({
 });
 
 function submit() {
-  form.put(`/subcategorias/${props.subcategoria.id}`);
+  form.patch(`/subcategorias/${props.subcategoria.id}`);
 }
 </script>
 
