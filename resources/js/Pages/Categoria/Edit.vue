@@ -12,7 +12,7 @@ const form = useForm({
 });
 
 function submit() {
-  form.put(`/categorias/${props.categoria.id}`);
+  form.patch(`/categorias/${props.categoria.id}`);
 }
 </script>
 
