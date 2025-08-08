@@ -16,7 +16,7 @@ const form = useForm({
 })
 
 function submit() {
-  form.put(`/usuarios/${props.usuario.id}`)
+  form.patch(`/usuarios/${props.usuario.id}`)
 }
 </script>
 
